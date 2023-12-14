@@ -11,3 +11,19 @@
     padding-right: 0px;
     text-align: left;;
 }
+nav {
+    background-color: #31708E;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
