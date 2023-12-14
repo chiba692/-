@@ -29,17 +29,26 @@
             var message = document.getElementById("message").value;
             alert("Спасибо," + name + "! Данные отправлены.");
         }
+        
     </script>
 </head>
 <body>
-    <div class="menu">
-        <ul>
-         <li><a href="https://chiba692.github.io/techsupp/">Часто задаваемые вопросы</a></li>
-            <li><a href="https://chiba692.github.io/-/">Обратная связь</a></li>
-            <li><a href="https://chiba692.github.io/techosupport/">Написать отзыв</a></li>
-            <li><a href="https://chiba692.github.io/techosupp/">Домой</a></li>
-        </ul>
-      </div>
+    <link rel="stylesheet" media="screen and (max-width: 480px)" href="styles_mobile.css">
+<link rel="stylesheet" media="screen and (min-width: 481px) and (max-width: 1024px)" href="styles_tablet.css">
+<link rel="stylesheet" media="screen and (min-width: 1025px) and (max-width: 1366px)" href="styles_laptop.css">
+<link rel="stylesheet" media="screen and (min-width: 1367px)" href="styles_desktop.css">
+<picture>
+  <source srcset="image_small.jpg" media="(max-width: 480px)">
+  <source srcset="image_medium.jpg" media="(min-width: 481px) and (max-width: 1024px)">
+  <source srcset="image_large.jpg" media="(min-width: 1025px)">
+  
+</picture>
+    <nav>
+        <a href="#">О авторе</a>
+        <a href="#">Главная</a>
+        <a href="#">Обратная связь</a>
+        <a href="#">Частозадаваемые вопросы</a>
+    </nav>
     <h1>Форма обратной связи</h1>
 
     <form>
